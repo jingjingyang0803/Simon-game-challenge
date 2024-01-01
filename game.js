@@ -1,3 +1,13 @@
+var started = false;
+var level = 0;
+
+$(document).keypress(function () {
+  if (!started) {
+    nextSequence();
+    started = true;
+  }
+});
+
 var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
@@ -12,6 +22,9 @@ function nextSequence() {
     .fadeOut(100)
     .fadeIn(100);
   playSound(randomChosenColour);
+
+  level++;
+  $("#level-title").text("Level " + level);
 }
 
 function playSound(name) {
