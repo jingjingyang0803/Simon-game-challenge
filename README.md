@@ -2,7 +2,7 @@
 
 ## **Description**
 
-The Simon Game is a memory skill game that challenges players to remember and replicate a sequence of colors and sounds. This project is a web-based version of the classic electronic game of the same name. Each level increases in complexity, offering an engaging and fun way to test memory skills.
+The Simon Game, a course project for course The Complete 2023 Web Development Bootcamp (AppBrewery), is a memory skill game that challenges players to remember and replicate a sequence of colors and sounds. This project is a web-based version of the classic electronic game of the same name. Each level increases in complexity, offering an engaging and fun way to test memory skills.
 
 ## **Technologies Used**
 
